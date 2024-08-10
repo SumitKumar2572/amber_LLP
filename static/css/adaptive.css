@@ -1,0 +1,1173 @@
+@media screen and (max-width:1200px) {
+header .header__content .logo {
+margin-right:1rem
+}
+
+header .header__content .logo img {
+height:7rem;
+margin-top:1rem
+}
+
+header .header__content .menu {
+margin-top:0;
+-ms-flex-preferred-size:49rem;
+flex-basis:49rem
+}
+
+header .header__content .menu li a {
+min-width:16rem
+}
+
+.slider__subtitle {
+font-size:1.6rem
+}
+
+.invest-section__header {
+padding:2.3rem 2.8rem
+}
+
+.step__content {
+overflow:hidden
+}
+
+.step__item {
+margin-right:11rem
+}
+
+.referral__level > div {
+-webkit-box-flex:auto;
+-ms-flex:auto;
+flex:auto;
+width:calc(33% - 7.6rem)
+}
+
+.referral__level__item {
+padding-left:1.8rem
+}
+
+.psysdesc {
+font-size:23px
+}
+
+.referral__stat__item:last-child {
+min-width:inherit;
+width:calc(36% - 7.6rem)
+}
+
+.referral__stat__item {
+-webkit-box-flex:auto;
+-ms-flex:auto;
+flex:auto;
+width:calc(33% - 7.6rem)
+}
+
+.referral__desc .btn-white {
+margin-right:10px
+}
+}
+
+@media screen and (max-width:992px) {
+.slider__right {
+padding-left:0
+}
+
+.slider__left {
+-webkit-box-align:start;
+-ms-flex-align:start;
+align-items:start
+}
+
+.invest-section__header {
+padding:2rem
+}
+
+.invest-section__header div span {
+font-size:1.4rem
+}
+
+.invest-section__header div {
+letter-spacing:0;
+font-size:1.1rem
+}
+
+.header__content .logo img {
+height:7rem;
+margin-top:1rem;
+width:59px;
+object-fit:cover;
+object-position:0 0
+}
+
+header .header__content .menu li a {
+font-size:1.2rem;
+min-width:14rem
+}
+
+header .header__content .soc_lang {
+margin-right:2.2rem
+}
+
+.header__content .btn {
+padding:0 1rem
+}
+
+.header__content .btn img,.header__content .btn svg {
+margin-right:1rem
+}
+
+header .header__content .btn {
+white-space:nowrap
+}
+
+.invest-section__content {
+padding:10rem 4rem 4rem
+}
+
+.invest-section__content .invest-section__left-header {
+margin-bottom:2rem
+}
+
+.invest-section__content .invest-section__right {
+padding-left:3rem
+}
+
+.panel__content {
+font-size:2rem
+}
+
+.step__header h2 {
+font-size:3rem
+}
+
+.step__item {
+margin-right:5rem
+}
+
+.invest-section__content.invest-section_affiliate {
+padding:4rem
+}
+
+.invest-section__content.invest-section_affiliate:after {
+top:3.5rem;
+right:4rem
+}
+
+.referral__level > div {
+width:calc(33% - 4.6rem);
+margin-right:4.6rem;
+flex-wrap:wrap;
+padding:1.8rem
+}
+
+.referral__level__item::after {
+right:-4.1rem
+}
+
+.referral__level__item h2 {
+margin:0;
+font-size:4rem
+}
+
+.referral__level > div:last-child h3 {
+font-size:2.2rem
+}
+
+.referral__level > div:last-child h4 {
+font-size:2.2rem;
+text-align:center
+}
+
+.psysdesc {
+font-size:16px
+}
+
+.faq h2 {
+font-size:2.8rem
+}
+
+.faq {
+padding:4rem
+}
+
+.faq:after {
+top:3.5rem;
+right:4.5rem
+}
+
+footer .footer__container {
+flex-wrap:wrap
+}
+
+.copyrite {
+margin-top:0;
+background:#393939;
+text-align:center;
+width:100%;
+padding:.8rem
+}
+
+footer .footer__container .soc_lang {
+margin-right:1rem
+}
+
+footer {
+height:inherit
+}
+
+footer .container {
+padding:0
+}
+
+.ref-prizes .list_info_slider__item h3 {
+font-size:2rem
+}
+
+.referral__desc__form {
+margin-right:1rem
+}
+
+.referral__stat__item {
+margin-right:5.6rem;
+width:calc(33% - 5.6rem)
+}
+
+.referral__stat__item:last-child {
+width:calc(36% - 5.6rem)
+}
+
+.referral .refback {
+padding:4rem
+}
+
+.invest__stat__item h3 {
+font-size:2rem
+}
+
+.invest__stat__item h4 {
+letter-spacing:0;
+font-size:1.3rem
+}
+
+.ref_contest__header h1 {
+letter-spacing:0;
+font-size:50px;
+font-weight:700
+}
+
+.ref_contest__header p {
+letter-spacing:0;
+padding-left:0
+}
+
+.ref_contest .ref-prizes__header h4,.ref_contest .ref-prizes__header h3,.ref_contest .ref-leaderboard__header h3,.ref_contest .ref-leaderboard__header h4 {
+font-size:14px;
+letter-spacing:0
+}
+
+.accwrapstat {
+width:100%
+}
+
+.accwrapstat .btn-white {
+min-width:inherit;
+font-size:14px;
+letter-spacing:0
+}
+
+.depositvalue {
+font-size:12px
+}
+
+.depositvalue b {
+font-size:13px
+}
+
+.deponum {
+font-size:22px;
+font-size:20px;
+margin-bottom:13px
+}
+}
+
+@media screen and (max-width:767px) {
+header .header__content .logo img {
+height:5rem;
+margin-top:.6rem;
+width:100%;
+object-fit:contain
+}
+
+.calcform {
+padding:1.5rem
+}
+
+.calcinfo {
+margin-top:2rem
+}
+
+.invest-section__content.invest-section_affiliate {
+padding:1.5rem;
+margin-top:-7rem
+}
+
+.invest-section__content.invest-section_affiliate::after {
+top:2.5rem;
+right:2rem
+}
+
+.referral__level__result {
+display:none!important
+}
+
+.referral__level .referral__level__item:nth-child(2) {
+margin-right:0
+}
+
+.referral__level__item:nth-child(2):after {
+content:''!important
+}
+
+.referral__level__item h2 {
+font-size:4.4rem
+}
+
+.psysblock {
+width:32%
+}
+
+.psys .step__header {
+margin-bottom:1rem!important
+}
+
+.currencies {
+margin-bottom:30px
+}
+
+.mainwith {
+margin-top:22px
+}
+
+.mainwithblock span {
+font-size:12px
+}
+
+.faq h2 {
+font-size:2rem;
+margin-top:1.5rem
+}
+
+.faq h3 {
+font-size:1.4rem;
+margin-bottom:2rem
+}
+
+.faq {
+padding:1.5rem;
+margin-bottom:4rem
+}
+
+.faq-q {
+font-size:16px
+}
+
+.faq:after {
+top:2.5rem;
+right:2rem
+}
+
+footer .footer__container .footer_menu {
+flex-basis:90%;
+margin-bottom:1.4rem
+}
+
+.invest .step__header {
+margin-bottom:3rem!important
+}
+
+.ref_contest .ref-prizes__table {
+padding:1.5rem
+}
+
+.ref-prizes .list_info_slider {
+margin-top:0
+}
+
+.ref_contest .calcinfo {
+margin-top:0
+}
+
+.ref_contest .ref-prizes__table2 {
+padding:1.5rem
+}
+
+.acctable th {
+font-size:14px
+}
+
+.ref_contest .ref-prizes__item:last-child {
+margin-bottom:0
+}
+
+.referral .referral__desc {
+margin-bottom:3.6rem
+}
+
+.referral__desc .btn-white {
+width:100%
+}
+
+.referral__desc .referral__desc__form {
+width:100%;
+padding:1.5rem
+}
+
+.referral__desc .btn-white {
+margin-right:0
+}
+
+.referral .refback {
+padding:1.5rem;
+margin-top:0;
+margin-bottom:4rem
+}
+
+.referral .refback p {
+margin-top:0;
+font-size:1.3rem
+}
+
+.ref_contest__header h6 img {
+display:none
+}
+
+.acctable td {
+font-size:12px
+}
+
+.acctable td b {
+font-weight:600
+}
+
+.paginate_button {
+font-size:12px!important;
+padding:2px 6px;
+min-width:inherit;
+margin:3px
+}
+
+.invest__stat__item {
+margin-right:18px;
+min-width:47%
+}
+
+.invest__stat__item:nth-child(even) {
+margin-right:0
+}
+
+.ref-prizes__table .slider__btn:first-child {
+margin-top:0
+}
+
+.account .referral__desc .referral__desc__form button {
+margin-top:0
+}
+
+.ref_contest.account {
+padding:0 0 2rem
+}
+
+.account .referral__desc .btn-white {
+display:none
+}
+
+.account .referral__desc {
+margin-bottom:0
+}
+
+.account .referral__desc__form {
+margin-bottom:1.5rem!important
+}
+
+.account .step__header {
+margin:2rem 0!important
+}
+
+.account .step__header h2 {
+margin-bottom:0
+}
+
+.accwraptitle {
+padding:1.5rem;
+font-size:12px
+}
+
+.accmainstatline2 {
+padding:1rem 1.5rem
+}
+
+.accmainstatline2 span {
+font-size:14px
+}
+
+.accmainstatline2 img {
+height:29px;
+margin-top:3px;
+margin-right:6px
+}
+
+.account .modalform {
+padding:1.5rem
+}
+
+.accbalwrapinput img {
+height:32px
+}
+
+.accbalwrapinput span {
+font-size:11px!important
+}
+
+.deppsysline {
+width:70%
+}
+
+.accblock3 {
+width:100%;
+display:flex;
+justify-content:space-between;
+flex-wrap:wrap;
+padding:1.5rem
+}
+
+.deponum {
+width:100%
+}
+
+.accblock3 .accmainstatline {
+width:48%;
+margin-bottom:0;
+font-size:13px
+}
+
+.accblock3:last-child {
+width:100%;
+padding:0 1.5rem 1.5rem
+}
+
+.deposit {
+padding:1.5rem
+}
+
+.pagination {
+font-size:16px;
+margin:0 auto 1.5rem
+}
+
+.pagination a {
+padding:0 5px;
+font-size:16px!important
+}
+
+.account .ref_contest .ref-prizes__table2 table td {
+font-weight:400
+}
+
+.ref_contest .calcinfo {
+margin-top:1.5rem
+}
+}
+
+@media screen and (max-width:576px) {
+.slider .slider__subtitle {
+font-size:1.3rem;
+text-align:center
+}
+
+.invest-section .invest-section__content .invest-section__left-header {
+font-size:1.8rem
+}
+
+.tabs__caption li img {
+height:30px
+}
+
+.step__header h2 {
+font-size:1.7rem!important
+}
+
+.psysblock {
+width:49%
+}
+
+.step__header a {
+margin:0
+}
+
+.mainwithblock span {
+line-height:1.4;
+font-size:10px;
+align-items:center;
+display:inline-flex;
+justify-content:center
+}
+
+.mainwithblock span i {
+display:none
+}
+
+.mainwithblock img {
+height:15px
+}
+
+.faq h2 {
+font-size:1.4rem;
+margin-top:1.5rem;
+margin-bottom:1rem
+}
+
+.faq h3 {
+font-size:1rem
+}
+
+.faq::after {
+width:20px;
+height:20px;
+background-position:3px 3px;
+box-shadow:4px 4px 0 #717171;
+top:3rem;
+right:1.8rem
+}
+
+.faq-q {
+padding:6px;
+font-size:14px
+}
+
+.faq-q img {
+margin-right:0
+}
+
+.faq-a {
+padding:15px;
+font-size:12px
+}
+
+footer .footer__container .footer_menu li a {
+font-size:1rem
+}
+
+.copyrite {
+font-size:.6rem
+}
+
+.ref_contest__header h1 {
+font-size:32px
+}
+
+.ref_contest__header p {
+font-size:12px
+}
+
+.acctable td {
+font-size:10px
+}
+
+.acctable td img {
+height:16px;
+vertical-align:-4px
+}
+
+.contactbtn {
+font-size:14px
+}
+
+.remodal {
+padding:1.5rem
+}
+
+.modalform {
+padding:1.5rem
+}
+
+.modalbtns .slider__btn {
+letter-spacing:0;
+font-size:14px;
+height:5rem
+}
+
+.remodal h1 {
+font-size:20px;
+margin:6px 0 20px
+}
+
+.loginblockagree {
+font-size:10px
+}
+
+.loginblocksepwrap {
+font-size:12px
+}
+
+.formlinkout {
+font-size:14px
+}
+
+.account .referral__desc__form button {
+width:8.1rem;
+min-width:8.1rem!important
+}
+
+.account .referral__desc__form span {
+font-size:1rem
+}
+
+.accmenu {
+flex-wrap:wrap
+}
+
+.accmenu a {
+width:25%;
+border-bottom:1px solid #f0f0f0;
+font-size:10px
+}
+
+.accmenu a:hover,.accmenu a.active {
+border-bottom:1px solid #ffbd3f
+}
+
+.accmenu a:first-of-type {
+border-radius:12px 0 0 0
+}
+
+.accmenu a:nth-child(4) {
+border-radius:0 12px 0 0
+}
+
+.accmenu a:nth-child(5) {
+border-radius:0 0 0 12px
+}
+
+.accmenu a:last-of-type {
+border-radius:0 0 12px 0
+}
+
+.headerclock {
+font-size:10px
+}
+
+.accwrap {
+width:100%
+}
+
+.accmainstatline2 {
+padding:.5rem 1.5rem
+}
+
+.accblock .accwrap {
+margin-bottom:1.5rem
+}
+
+.accblock .accwrap:last-of-type {
+margin-bottom:0
+}
+
+.acctable th {
+font-size:12px
+}
+
+.ref_contest .calcinfo {
+margin-top:1.5rem;
+font-size:12px
+}
+
+.account .ref_contest .ref-prizes__table2 table td {
+font-weight:400
+}
+
+.accbalwrapinput {
+width:24%;
+margin-bottom:4px
+}
+
+.select_paysys_8 {
+display:block
+}
+
+.accsmalltitle {
+font-size:14px
+}
+
+.depositwrap {
+width:49%
+}
+
+.deposit .depositwrap:nth-child(3) {
+width:100%;
+display:flex;
+justify-content:space-between;
+flex-wrap:wrap;
+margin-top:6px
+}
+
+.deposit .depositwrap:nth-child(3) .depositvalue {
+width:49%;
+margin-bottom:0
+}
+
+.depositinfo {
+font-style:14px
+}
+}
+
+@media screen and (max-width:400px) {
+.container {
+padding:0
+}
+
+header .container {
+padding:0
+}
+
+.menu_mobile {
+margin-left:1rem
+}
+
+.header__content .logo {
+margin-right:.5rem
+}
+
+.fz22 {
+font-size:1.4rem
+}
+
+.slider .list_info_slider .fz60 {
+font-size:3.4rem
+}
+
+.slider .list_info_slider .list_info_slider__item:first-child {
+margin-right:70px
+}
+
+.slider__left {
+top:15px;
+left:calc(50% - 157px);
+width:330px
+}
+
+.slider .slider__title {
+font-size:2rem
+}
+
+.slider .list_info_slider {
+margin:0 auto 210px
+}
+
+.slider .slider__subtitle {
+font-size:1.1rem
+}
+
+.slider .slider__right .slider__btn {
+width:90%;
+margin:1.4rem auto 0;
+display:flex
+}
+
+.invest-section .invest-section__content .invest-section__left-header {
+font-size:1.5rem
+}
+
+.invest-section .invest-section__content .invest-section__left-header img {
+height:30px
+}
+
+.tabs__caption li img {
+height:22px
+}
+
+.tabs__caption li {
+padding:8px 0 2px
+}
+
+.calcinfo {
+font-size:12px
+}
+
+.invest-section__content h4 {
+margin-bottom:1.2rem;
+font-size:1.2rem
+}
+
+.panel__header {
+height:4rem;
+font-size:1.4rem;
+padding-left:1rem
+}
+
+.panel__content {
+font-size:1.6rem;
+padding:1rem
+}
+
+.btn-white {
+min-width:inherit
+}
+
+.invest-section__content.invest-section_affiliate::after {
+top:1.8rem;
+right:1.8rem
+}
+
+.referral__level__item h3 {
+font-size:1.8rem;
+font-weight:600;
+letter-spacing:0
+}
+
+.invest-section__content .referral__level__item h4 {
+letter-spacing:0;
+font-size:1.6rem
+}
+
+.psysdesc {
+font-size:14px
+}
+
+.psysblock img {
+height:32px;
+margin-right:6px;
+margin-top:1px
+}
+
+.psysdesc a {
+font-size:10px
+}
+
+.mainwithblock {
+padding:8px 0;
+box-shadow:0 3px 0 #9D9D9D,0 27px 57px -15px rgba(0,0,0,0.25)
+}
+
+.faq h2 {
+font-size:1.2rem;
+margin-top:0;
+margin-bottom:1rem
+}
+
+.faq h3 {
+font-size:.75rem
+}
+
+.faq::after {
+width:17px;
+height:17px;
+background-position:3px 3px;
+box-shadow:2px 2px 0 #717171;
+top:1.4rem;
+right:1.8rem
+}
+
+.faq-q img {
+height:30px
+}
+
+.faq-q {
+padding:4px;
+font-size:12px
+}
+
+.faq-a {
+padding:10px
+}
+
+footer .footer__container .footer_menu li a {
+font-size:.8rem
+}
+
+.fixed-btn {
+width:5.5rem;
+height:5.5rem;
+bottom:1.5rem;
+left:1.5rem
+}
+
+.modalform label {
+padding-left:4px;
+font-size:14px
+}
+
+.modalform input[type="text"],.modalform input[type="password"],.modalform input[type="email"] {
+width:100%;
+height:40px;
+line-height:40px;
+padding:0 10px;
+font-size:12px;
+margin-bottom:15px;
+margin-top:5px
+}
+
+.modalbtns .slider__btn {
+width:100%
+}
+
+.loginblocksepwrap {
+font-size:10px
+}
+
+.ref-prizes .list_info_slider__item h3 {
+font-size:1.6rem
+}
+
+.fz60 {
+font-size:5rem
+}
+
+.referral > h2 {
+font-size:2rem;
+text-align:center
+}
+
+.referral__desc .btn-white {
+width:90%;
+min-width:inherit;
+margin:0 auto
+}
+
+.referral .refback__header h2 {
+font-size:2rem;
+text-shadow:1px 1px 0 #8E8E8E,10px 15px 35px rgba(40,40,40,0.55)
+}
+
+.refback .btn-white--image {
+text-align:center
+}
+
+.ref-leaderboard__header {
+padding:0 1.5rem
+}
+
+.invest__stat__item {
+min-height:7rem
+}
+
+.invest__stat__item h4 {
+font-size:1.1rem;
+margin-bottom:4px
+}
+
+.invest__stat__item h3 {
+font-size:1.8rem
+}
+
+.contactbtn {
+font-size:12px;
+padding-left:48px;
+letter-spacing:.1rem
+}
+
+.contactbtn img {
+left:12px
+}
+
+.contactbtn i {
+left:12px
+}
+
+.referral__desc__form h3 {
+font-size:13px
+}
+
+.account .referral__desc__form span {
+font-size:.8rem
+}
+
+.accmenu a i {
+font-size:22px;
+margin:4px 0
+}
+
+.account .step__header {
+padding:0 10px!important
+}
+
+.accmenu {
+margin:0 10px
+}
+
+.accmainstatline2 span {
+font-size:14px;
+float:right;
+margin-top:0
+}
+
+.accmainstatline2 img {
+height:17px;
+margin-top:1px;
+margin-right:3px
+}
+
+.accmainstatline2 {
+padding:.7rem 1.5rem
+}
+
+.ref_contest .ref-prizes__header h4,.ref_contest .ref-prizes__header h3,.ref_contest .ref-leaderboard__header h3,.ref_contest .ref-leaderboard__header h4 {
+font-size:12px
+}
+
+.acctable th {
+font-size:10px
+}
+
+.acctable td img {
+height:13px;
+vertical-align:-3px
+}
+
+.ref_contest .ref-prizes__table2 table td {
+font-weight:400
+}
+
+.acctable {
+overflow-x:auto
+}
+
+.account .accblock .modalform .slider__btn {
+font-size:13px
+}
+
+.accblock3 .accmainstatline {
+width:100%;
+margin-bottom:5px;
+font-size:12px
+}
+
+.accmainstatline {
+padding:10px
+}
+
+.accmainstatline img {
+height:15px;
+vertical-align:-3px
+}
+
+.depositvalue {
+padding:6px 10px;
+font-size:11.6px
+}
+
+.depositvalue b {
+font-size:11px
+}
+
+.accblock3 {
+padding:1.5rem 1.5rem .1rem
+}
+
+.depositvalue b img {
+height:15px;
+vertical-align:-3px
+}
+
+.step__header h2 {
+font-size:1.5rem!important
+}
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html><html lang="en-US">
+<!-- Mirrored from dcprime.uno/registration by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 03 Aug 2024 10:47:58 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"><meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1"><title>Create account | DCPrime</title><base  /><meta name="description" content="DCPrime - Best crypto-bankink platform for passive investments and great earnings. Join now!"><meta name="keywords" content="DCPrime, DCPrime, earnings, profit, investments, hyip, investment program, investment platform, crypto, cryptocurrency"><link rel="shortcut icon" type="image/png" href="static/favicon/favicon16.png" sizes="16x16"><link rel="shortcut icon" type="image/png" href="static/favicon/favicon32.png" sizes="32x32"><link rel="shortcut icon" type="image/png" href="static/favicon/favicon64.png" sizes="64x64"><link rel="shortcut icon" type="image/png" href="static/favicon/favicon180.png" sizes="180x180"><link rel="apple-touch-icon" href="static/favicon/apple-touch-icon.png" sizes="180x180"><link rel="android-touch-icon" href="static/favicon/android-touch-icon.png" sizes="180x180"><link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.13.0/css/OverlayScrollbars.css"><link href="static/css/fontawesome/css/all.min.css" rel="stylesheet" type="text/css" /><link rel="stylesheet" href="static/css/style.css"><link rel="stylesheet" href="static/css/remodal.css"><link rel="stylesheet" href="static/css/adaptive.css"><!-- TrustBox script --><script type="text/javascript" src="../widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script><!-- End TrustBox script --></head><body><div class="page"> <!--<a class="fixed-btn" href="referral_contest" style="text-decoration:none"><img style="margin-right: 0" src="static/img/png/contest.svg" alt=""><span>Contest</span></a> --><header><div class="container"><div class="header__content"><a href="home.html" class="logo"><img src="static/img/png/logo.png" alt=""></a><ul class="menu"><li><a href="investments.html"><img src="static/img/svg/arrow.svg" alt="">Investments</a></li><li><a href="referrals.html"><img src="static/img/svg/referral.svg" alt="">Referrals</a></li><li><a href="support.html"><img src="static/img/svg/done.svg" alt="">Contacts</a></li></ul><div class="soc_lang"><a href="https://t.me/dcprime_online" target="_blank"><img src="static/img/svg/telegram.svg" alt=""></a><a href="#"><img src="static/img/png/flags/en.png" alt=""></a></div><a href="login.html" class="btn" type="button"><img src="static/img/svg/login.svg" alt="">Log In</a><button class="menu_mobile"><img src="static/img/svg/main/open-menu.svg" alt=""></button></div></div><div class="menu-mobile"><ul><li><a href="investments.html">Investments</a></li><li><a href="referrals.html">Referrals</a></li><!--<li><a href="referral_contest">Affiliate contest</a></li> --><li><a href="support.html">Contacts</a></li></ul><div class="soc_lang"><a href="https://t.me/dcprime_online" target="_blank"><img src="static/img/svg/telegram.svg" alt=""></a><a href="#"><img style="border-radius: 50%" src="static/img/png/flags/en.png" alt=""></a></div></div></header><div class="container main"><section class="faq login" id="faq"><h2>Create account</h2><h3>Register your account for free</h3><div class="faq__list"><div class="faq-c"><form method="post" action="https://dcprime.uno/registration" name="register_frm" class="modalform"><label for="register_frm_uLogin"><i class="fa fa-user" aria-hidden="true"></i> Your login:<span>*</span></label><input name="uLogin" id="register_frm_uLogin" value="" type="text" placeholder="login" required /><label for="register_frm_uMail"><i class="fas fa-envelope-open-text"></i> Your E-mail:<span>*</span></label><input name="uMail" id="register_frm_uMail" value="" type="text" placeholder="username@gmail.com" required /><label for="register_frm_uPass"><i class="fas fa-lock-alt"></i> Your Password:<span>*</span></label><input name="uPass" id="register_frm_uPass" value="" type="password" placeholder="***********" required /><label for="register_frm_Pass2"><i class="fas fa-lock-alt"></i> Retype Your Password:<span>*</span></label><input name="Pass2" id="register_frm_Pass2" value="" type="password" placeholder="***********" required /><div class="loginblocksep" style="margin-top:0"><div class="loginblocksepwrap"><i class="fas fa-check-double"></i> All fields are required</div></div><div class="modalbtns"><input name="__Cert" value="3fb2143f" type="hidden"><input name="__Cert" value="74da341c" type="hidden"><input name="uRef" id="register_frm_uRef" value="" type="hidden" /><input name="register_frm_btn" value="REGISTER" type="submit" class="btn-white btn-white--yellow btn-white--image slider__btn" /><a href="login.html" class="btn-white btn-white--yellow btn-white--image slider__btn">Login</a></div><div class="loginblockagree"><input name="Agree" id="register_frm_Agree" value="1" type="checkbox" required />I understand and agree with <a href="rules.html" target="_blank">Terms &amp; Conditions</a> of Cryptox</div><div class="loginblocksep bountysepwrap"><div class="loginblocksepwrap"><i class="fas fa-user-friends"></i> Your upline: <b>No upline</b></div></div></form></div></div></section></div><script type="text/javascript">
+        function chkLogin()
+        {
+            $('#register_frm_uLogin').removeClass('error');
+            $('#login_check').html('');
+            $.ajax(
+                {
+                    type: 'POST',
+                    url: 'ajax',
+                    data: 'module=account/register&do=chklogin&login='+
+                        encodeURIComponent($('#register_frm_uLogin').val()),
+                    success: 
+                        function(ex)
+                        {
+                            if (ex == 1)
+                            {
+                                $('#register_frm_uLogin').addClass('error');
+                                $('#login_check').html('used');
+                            }
+                        }
+                }
+            );
+        }
+        tid2=0;
+        $('#register_frm_uLogin').keypress(
+            function()
+            {
+                clearTimeout(tid2);
+                tid2=setTimeout(function(){ chkLogin(); }, 1000);
+            }
+        );
+        chkLogin();
+    </script><script type="text/javascript">
+    function chkMail()
+    {
+        $('#register_frm_uMail').removeClass('error');
+        $('#mail_check').html('');
+        $.ajax(
+            {
+                type: 'POST',
+                url: 'ajax',
+                data: 'module=account/register&do=chkmail&mail='+
+                    encodeURIComponent($('#register_frm_uMail').val()),
+                success: 
+                    function(ex)
+                    {
+                        if (ex == 1)
+                        {
+                            $('#register_frm_uMail').addClass('error');
+                            $('#mail_check').html('used');
+                        }
+                    }
+            }
+        );
+    }
+    tid=0;
+    $('#register_frm_uMail').keypress(
+        function()
+        {
+            clearTimeout(tid);
+            tid=setTimeout(function(){ chkMail(); }, 1000);
+        }
+    );
+    chkMail();
+</script><footer><div class="container"><div class="footer__container"><img src="static/img/png/logo_white30f4.png?v=3" class="footer_logo" alt=""><ul class="footer_menu"><li><a href="investments.html"><img src="static/img/svg/arrow_white.svg" alt="">investments</a></li><li><a href="referrals.html"><img src="static/img/svg/referral_white.svg" alt="">referrals</a></li><li><a href="support.html"><img src="static/img/svg/done_white.svg" alt="">contacts</a></li></ul><div class="soc_lang m-none"><a href="https://t.me/dcprime_online" style="margin-right: 1.5rem" target="_blank" ><img src="static/img/png/telegram.svg" alt=""></a><a href="#"><img src="static/img/png/flags/en.png" alt=""></a></div><span class="copyrite">DCPrime investment platform<br /><a href="home.html">DCPrime</a> | &copy; All rights reserved<br /><a href="rules.html" target="_blank"><i class="fas fa-print-search"></i>Terms & conditions</a></span></div></div></footer></div><div class="remodal" data-remodal-id="promo"><a data-remodal-action="close" class="remodal-close"></a><h1>Promo materials</h1><div class="modaldesc"><div class="bannerwrap">Size: <b>125px x 125px</b><img src="banners/en/125x125.html" alt="">Banner code:<textarea class="copy_button" data-clipboard-text='<a href="index.html"><img src="banners/en/125x125.html" width="125" height="125" alt="DCPrime"></a>' readonly><a href="index.html"><img src="banners/en/125x125.html" width="125" height="125" alt="DCPrime"></a></textarea></div><div class="smallsep2"></div><div class="bannerwrap">Size: <b>468px x 60px</b><img src="banners/en/468x60.html" alt="">Banner code:<textarea class="copy_button" data-clipboard-text='<a href="index.html"><img src="banners/en/468x60.html" width="468" height="60" alt="DCPrime"></a>' readonly><a href="index.html"><img src="banners/en/468x60.html" width="468" height="60" alt="DCPrime"></a></textarea></div><div class="smallsep2"></div><div class="bannerwrap">Size: <b>728px x 90px</b><img src="banners/en/728x90.html" alt="">Banner code:<textarea class="copy_button" data-clipboard-text='<a href="index.html"><img src="banners/en/728x90.html" width="728" height="90" alt="DCPrime"></a>' readonly><a href="index.html"><img src="banners/en/728x90.html" width="728" height="90" alt="DCPrime"></a></textarea></div></div></div><script src="static/js/jquery-2.1.0.min.js"></script><script src="../cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.13.0/js/OverlayScrollbars.min.js"></script><script src="https://cdn.jsdelivr.net/npm/vue"></script><script src="static/js/main.js"></script><script src="static/js/tabs.js"></script><script src="static/js/remodal.min.js"></script><script src="static/js/goalProgress.min.js"></script><script src="static/js/clipboard.min.js"></script><script src="static/js/jquery.dataTables.min.js"></script><script src="static/js/site.js"></script>
+<script>
+	$(".faq-q").click( function () {
+		var container = $(this).parents(".faq-c");
+		var answer = container.find(".faq-a");
+		answer.slideToggle(200);
+	});
+
+	var serverTime = 1600835572000;
+
+	$(function() {
+	});
+</script>
+
+<script>
+	document.addEventListener('click', function (e) {
+		let triggerOpen = e.target.closest('.menu-mobile');
+		if (!triggerOpen && !e.target.closest('.menu_mobile')) {
+			if (document.querySelector('.menu-mobile').classList.contains('active')) {
+	            document.querySelector('.menu_mobile').classList.remove('active');
+	            document.querySelector('.menu-mobile').classList.remove('active');
+        	}
+        }
+	    if (e.target.closest('.menu_mobile')) {
+	        document.querySelector('.menu_mobile').classList.toggle('active');
+	        document.querySelector('.menu-mobile').classList.toggle('active');
+	    }
+	})
+</script>
+</body>
+<!-- Mirrored from dcprime.uno/registration by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 03 Aug 2024 10:47:58 GMT -->
+</html>
